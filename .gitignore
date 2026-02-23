@@ -1,0 +1,12 @@
+# Entornos y caché
+__pycache__/
+*.pyc
+
+# Bases de datos y datos generados
+data/*.db
+data/*.csv
+data/*.json
+
+# Entornos virtuales
+.venv/
+env/
