@@ -67,3 +67,15 @@ data-pipeline-project/
 - Añadir contenedores Docker
 - Incluir control de errores y logs
 - Automatizar la ejecución del pipeline
+
+## 📊 Consultas SQL
+
+Este proyecto incluye varias consultas SQL realizadas sobre la base de datos generada por el pipeline ETL:
+
+- Top 10 países más poblados del mundo
+- Población media por región
+- Número de países por región
+- País con mayor superficie por región (usando subconsulta y JOIN)
+- Países con más de 100 millones de habitantes
+
+Las consultas completas se encuentran en el archivo `sql/consultas.sql`.
