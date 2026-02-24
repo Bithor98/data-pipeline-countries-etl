@@ -1,3 +1,13 @@
+
+## 🚀 Resumen rápido
+
+- Pipeline ETL completo en Python
+- Datos extraídos desde una API pública
+- Transformación y limpieza con pandas
+- Carga en base de datos SQLite
+- Consultas SQL reales para análisis de datos
+
+
 # Pipeline de Datos – API a Base de Datos SQL
 
 ## 📌 Descripción del proyecto
@@ -53,6 +63,18 @@ data-pipeline-project/
 3. **Carga (Load)**  
    Los datos se almacenan en una base de datos relacional.
 
+## 🔄 Flujo ETL
+
+API REST  
+↓  
+Extracción de datos (JSON)  
+↓  
+Transformación y limpieza (pandas)  
+↓  
+Almacenamiento en SQLite  
+↓  
+Consultas SQL para análisis
+
 ---
 
 ## 🎯 Objetivos del proyecto
@@ -68,6 +90,8 @@ data-pipeline-project/
 - Incluir control de errores y logs
 - Automatizar la ejecución del pipeline
 
+---
+
 ## 📊 Consultas SQL
 
 Este proyecto incluye varias consultas SQL realizadas sobre la base de datos generada por el pipeline ETL:
@@ -79,3 +103,20 @@ Este proyecto incluye varias consultas SQL realizadas sobre la base de datos gen
 - Países con más de 100 millones de habitantes
 
 Las consultas completas se encuentran en el archivo `sql/consultas.sql`.
+
+---
+
+## 🧠 Aprendizajes clave
+
+- Consumo de APIs REST y manejo de errores
+- Limpieza y validación de datos antes de carga
+- Diseño de tablas en bases de datos relacionales
+- Uso de SQL para análisis agregados
+- Control de versiones con Git y GitHub
+
+---
+
+## 📌 Estado del proyecto
+
+Proyecto en evolución.  
+Se irán añadiendo mejoras y nuevos análisis a medida que avance la formación.
